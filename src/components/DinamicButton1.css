@@ -1,0 +1,58 @@
+.card-dynamic1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 0px 8px 16px;
+    
+    position: static;
+    width: 375px;
+    height: 44px;
+    left: 0px;
+    top: 570px;
+}
+
+.dynamic-button1{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 6px 0px 0px;
+
+position: static;
+width: 105px;
+height: 24px;
+left: calc(50% - 105px/2 - 119px);
+top: calc(50% - 24px/2 + 2px);
+}
+.icono1{
+    position: static;
+left: 0%;
+right: 77.14%;
+top: 0%;
+bottom: 0%;
+}
+.textDynamic1{
+    position: static;
+left: 30.48%;
+right: 5.71%;
+top: 0%;
+bottom: 0%;
+
+/* body-16px strong */
+
+font-family: 'PayPal Sans Big';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+/* Primary/Blue 400 */
+
+color: #1072EB;
+}
+

@@ -1,0 +1,144 @@
+.payLater{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 24px 16px 4px;
+
+position: static;
+width: 375px;
+height: 52px;
+left: 0px;
+top: 658px;
+
+}
+
+.titlePayLater{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 343px;
+    height: 24px;
+    left: 16px;
+    top: 24px;
+}
+
+.actionPayLater{
+    position: static;
+width: 54px;
+left: calc(50% - 54px/2 + 144.5px);
+top: 0%;
+bottom: 0%;
+
+/* body-16px strong */
+
+font-family: 'PayPal Sans Big';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: right;
+letter-spacing: -0.02em;
+
+/* Primary/Blue 400 */
+
+color: #1072EB;
+
+opacity: 0;
+}
+
+.titlebadge{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 115px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.badgePayLater{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 4px 8px;
+
+position: static;
+width: 45px;
+height: 24px;
+left: 70px;
+top: 0px;
+
+/* Primary/Blue 100 */
+
+background: #D1F1FF;
+border-radius: 14px;
+}
+
+.containerBadge{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 29px;
+height: 20px;
+left: 8px;
+top: 2px;
+}
+
+.messageBadge{
+    position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'PayPal Sans Big';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Primary/Blue 600 */
+
+color: #142C8E;
+
+}
+
+.titlebg{
+    position: static;
+    width: 90px;
+    height: 24px;
+    left: calc(50% - 62px/2 - 26.5px);
+    top: calc(50% - 24px/2);
+    
+    /* body=16px */
+    
+    font-family: 'PayPal Sans Big';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: -0.02em;
+    
+    /* Greys/Black */
+    
+    color: #0C0C0D;
+}

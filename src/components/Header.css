@@ -1,0 +1,99 @@
+.header{
+  /* Header */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: 8px 16px;
+
+position: static;
+width: 375px;
+height: 48px;
+left: 0px;
+top: 64px;
+
+background: #F7F5F0;
+
+
+}
+.frame-9-9-6-1-4{
+    /* Frame 99614 */
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 343px;
+height: 32px;
+left: calc(50% - 343px/2);
+top: 8px;
+
+
+}
+
+.container{
+/* container */
+position: static;
+width: 159.5px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+
+
+}
+
+
+
+
+.text-5{
+  position: static;
+  width: 159.5px;
+  height: 24px;
+  right: 30px;
+  top: calc(50% - 24px/2);
+  
+  /* body-16px strong */
+  
+  font-family: 'PayPal Sans Big';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  
+  align-items: center;
+  text-align: right;
+  letter-spacing: -0.02em;
+  
+  /* Primary/Blue 400 */
+  
+  color: #1072EB;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.pay-pal{
+position: static;
+width: 24px;
+height: 24px;
+left: calc(50% - 24px/2);
+top: calc(50% - 24px/2);
+
+
+
+}

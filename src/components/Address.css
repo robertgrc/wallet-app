@@ -1,0 +1,115 @@
+
+.address{
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px 16px 8px;
+
+position: static;
+width: 375px;
+height: 80px;
+left: 0px;
+top: 112px;
+}
+
+.name-address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: 343px;
+    height: 48px;
+    left: 16px;
+    top: 24px;
+    
+}
+
+.primary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: 343px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.main-primary{
+    position: static;
+    width: 150px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+    /* body-16px strong */
+    
+    font-family: 'PayPal Sans Big';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: -0.02em;
+    
+    /* Greys/Black */
+    
+    color: #0C0C0D;
+    
+}
+.change{
+    position: static;
+    width: 54px;
+    height: 24px;
+    left: 289px;
+    top: 0px;
+    
+    /* body-16px strong */
+    
+    font-family: 'PayPal Sans Big';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    text-align: right;
+    letter-spacing: -0.02em;
+    
+    /* Primary/Blue 400 */
+    
+    color: #1072EB;
+}
+.secondary{
+    position: static;
+    width: 268px;
+    height: 20px;
+    left: 0px;
+    top: 28px;
+    
+    /* caption */
+    
+    font-family: 'PayPal Sans Big';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.main{
+    position: static;
+    display: none;
+    width: 54px;
+    height: 24px;
+    left: 0px;
+    top: 52px;
+}
