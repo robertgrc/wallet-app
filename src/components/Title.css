@@ -1,41 +1,34 @@
 
 .title-container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px 16px 4px;
-    
-    position: static;
-    width: 375px;
-    /* height: 52px; */
-    left: 0px;
-    top: 192px;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px 0px 8px 16px;
+gap: 10px;
+
+width: 375px;
+height: 44px;
 }
 .title-main{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0px;
+    padding: 0px 6px 0px 0px;
+    gap: 8px;
     
-    position: static;
-    width: 343px;
+    width: 105px;
     height: 24px;
-    left: 16px;
-    top: 24px;
 }
 .title-badge{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    
-    position: static;
-    width: 81px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 81px;
+height: 24px;
 }
 .badge{
     display: flex;
@@ -58,24 +51,16 @@
     
 }
 .title{
-    position: static;
-    width: 81px;
-    height: 24px;
-    left: calc(50% - 81px/2);
-    top: calc(50% - 24px/2);
-    
-    /* body=16px */
-    
     font-family: 'PayPal Sans Big';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    
-    letter-spacing: -0.02em;
-    
-    /* Greys/Black */
-    
-    color: #0C0C0D;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.02em;
+
+/* Greys/Black */
+
+color: #0C0C0D;
 }

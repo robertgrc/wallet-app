@@ -1,0 +1,210 @@
+.CardPaypalContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px 10px 6px;
+    gap: 10px;
+    
+    width: 375px;
+    height: 110px;
+
+}
+.Content-Paypal{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 353px;
+height: 88px;
+}
+.FI-Paypal{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 353px;
+    height: 88px;
+}
+.Frame-Paypal{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 92px;
+height: 48px;
+}
+
+.Icons-Paypal{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 44px;
+height: 44px;
+}
+/* .ContainerRadioButton{
+    width: 44px;
+height: 44px;
+} */
+
+/* .Card-Paypal{
+    width: 48px;
+    height: 48px;
+} */
+
+.Accounts-thumbnail{
+    /* position: absolute; */
+    width: 48px;
+    height: 30px;
+    left: 0px;
+    top: 9px;
+    
+    border-radius: 2px;
+}
+.Background-Paypal{
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.tumbnail-Paypal{
+
+}
+
+.Border-thumbnail{
+
+}
+
+.CreditCardInfo-Paypal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 249px;
+    height: 88px;
+}
+
+.frame99612-Paypal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 249px;
+    height: 88px;
+}
+
+.topline-Paypal{
+    width: 249px;
+    height: 24px;
+    
+    /* body-16px strong */
+    
+    font-family: 'PayPal Sans Big','Sans','Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    
+    /* Greys/Black */
+    
+    color: #0C0C0D;
+}
+
+.frame99623-Paypal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2px 0px;
+    
+    width: 249px;
+    height: 64px;
+}
+
+.Text-Paypal{
+width: 249px;
+height: 60px;
+
+/* caption */
+
+font-family: 'PayPal Sans Big';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+/* Greys/Black */
+color: #0C0C0D;
+
+}
+
+/* css radio button */
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+} 
+.ContainerRadioButton{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    color: #000021;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+    
+} 
+
+/* Afecta a todos los componentes */
+
+input[type="radio"]{
+    display: none;
+}
+label{
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+label span{
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px 10px 10px;
+    border-radius: 31px;
+    transition: .25s ease;
+}
+
+
+label span:before{
+
+    margin-top: 9px;
+    content: "";
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: .25 ease;
+    box-shadow: inset 0 0 0 1px #1040C1;;
+}
+
+input[type="radio"]:checked + span::before{
+    box-shadow: inset 0 0 0 7px #1040C1;;
+}

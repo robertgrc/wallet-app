@@ -7,18 +7,19 @@ export const Card = ({ background, bank, subline }) => {
       <div className="card-content">
         <div className="card-fi">
           <div className="frame-99590">
+            <div className="icons">
+              {/* insertRadio */}
+              <div className="ContainerRadioButton">
+                <label>
+                  <input type="radio" name="bank" id="bank-Paypal" />
+                  <span></span>
+                </label>
+              </div>
+            </div>
             <div className="card">
               <div className="card-thumbnail-bof">
                 <div className="tumbnail-template">
                   <img src={background} alt="" className="tumbnail-template" />
-                </div>
-              </div>
-            </div>
-            <div className="icons">
-              <div className="radio-selected">
-                <div className="button"></div>
-                <div className="radio">
-                  <input type="radio" value="bank-of-america" name="bank" />
                 </div>
               </div>
             </div>

@@ -1,59 +1,50 @@
 .card-dynamic2{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 12px 0px 8px 16px;
-    
-    position: static;
-    width: 375px;
-    height: 44px;
-    left: 0px;
-    top: 614px;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px 0px 8px 16px;
+gap: 10px;
+
+width: 375px;
+height: 44px;
+
     
 }
 
 .dynamic-button2{
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px 6px 0px 0px;
-
-position: static;
-width: 255px;
-height: 24px;
-left: calc(50% - 255px/2 - 44px);
-top: calc(50% - 24px/2 + 2px);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 6px 0px 0px;
+    gap: 8px;
+    
+    width: 255px;
+    height: 24px;
 }
 .icono2{
-    position: static;
-left: 0%;
-right: 90.59%;
-top: 0%;
-bottom: 0%;
+    width: 24px;
+    height: 24px;
 
 }
 .textDynamic2{
-    position: static;
-left: 12.55%;
-right: 2.35%;
-top: 0%;
-bottom: 0%;
-
-/* body-16px strong */
-
-font-family: 'PayPal Sans Big';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-display: flex;
-align-items: center;
-letter-spacing: -0.02em;
-
-/* Primary/Blue 400 */
-
-color: #1072EB;
+    width: 217px;
+    height: 24px;
+    
+    /* body-16px strong */
+    
+    font-family: 'PayPal Sans Big';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    
+    /* Primary/Blue 400 */
+    
+    color: #1072EB;
 }

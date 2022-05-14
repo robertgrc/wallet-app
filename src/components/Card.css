@@ -1,108 +1,50 @@
-.main-card-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 12px 16px 12px 6px;
-  
-  /* position: static; */
-  width: 375px;
-  height: 72px;
-  left: 0px;
-  top: 496px;
-}
 
+@import url(//db.onlinewebfonts.com/c/44994582bcefd02119158ff8b0d16b75?family=PayPal+Sans+Big);
+
+.main-card-container{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 16px 12px 6px;
+gap: 10px;
+
+width: 375px;
+height: 72px;
+}
 .card-content{
-display: flex;
+  display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: flex-start;
-/* position: static; */
+padding: 0px;
+gap: 30px;
+
 width: 353px;
 height: 48px;
-left: 6px;
-top: 12px;
-}
-
-.amount{
-  display: flex;
-flex-direction: column;
-align-items: flex-end;
-padding: 0px;
-
-/* position: static; */
-width: 51px;
-height: 48px;
-left: 302px;
-top: 0px;
-
-opacity: 0;
 }
 .card-fi{
-display: flex;
+  display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
+gap: 12px;
 
-/* position: static; */
 width: 283px;
 height: 48px;
-left: 0px;
-top: 0px;
-
 }
-
 
 .frame-99590{
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
-
-  /* position: static; */
+  
   width: 92px;
   height: 48px;
-  left: 0px;
-  top: 0px;
+  
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
-.card{
-  /* position: static; */
-  width: 48px;
-  height: 48px;
-  left: 44px;
-  top: 0px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 0px;
-}
-
-.card-thumbnail-bof{
-  position: absolute;
-  width: 48px;
-  height: 30.23px;
-  left: calc(50% - 48px/2);
-  top: calc(50% - 30.23px/2 + 0.11px);
-  
-  border-radius: 2px;
-}
-
-.tumbnail-template{
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
-  border-radius: 4px;
-}
-
 
 .icons{
   display: flex;
@@ -110,76 +52,30 @@ flex-direction: row;
 align-items: center;
 padding: 0px;
 
-position: static;
 width: 44px;
 height: 44px;
-left: 0px;
-top: 2px;
 
 }
 
-.radio-selected{
-
-  position: static;
-  width: 44px;
-  height: 44px;
-  left: 0px;
-  top: 0px;
-  flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 0px;
-}
-
-.button{
-  
-left: 40.91%;
-right: 40.91%;
-top: 40.91%;
-bottom: 40.91%;
-
-/* background: #FFFFFF; */
-}
-
-.radio{
-
-  left: 22.73%;
-  right: 22.73%;
-  top: 22.73%;
-  bottom: 22.73%;
-  
-
-}
-
-.frame-99580{
+.credit-card-info{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
 
-  position: static;
-  width: 179px;
-  height: 24px;
-  left: 0px;
-  top: 24px;
+width: 179px;
+height: 48px;
 }
 
 .topline{
-/* position: static; */
-/* Topline */
-
-
-position: static;
-width: 197px;
+  width: 197px;
 height: 24px;
-left: calc(50% - 197px/2 + 9px);
-top: 0px;
 
 /* body-16px strong */
 
 font-family: 'PayPal Sans Big';
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 16px;
 line-height: 24px;
 /* identical to box height, or 150% */
@@ -193,16 +89,24 @@ letter-spacing: -0.02em;
 color: #0C0C0D;
 }
 
+.frame-99580{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 179px;
+height: 24px;
+}
+
 .subline{
-  position: static;
-width: 99px;
+  width: 99px;
 height: 20px;
-left: calc(50% - 99px/2 - 40px);
-top: calc(50% - 20px/2);
 
 /* caption */
 
-font-family: 'PayPal Sans Big';
+font-family: 'PayPal Sans Big', 'Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
